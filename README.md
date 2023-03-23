@@ -9,7 +9,7 @@ Uses `node:crypto` in browser, and `webcrypto` in browser (if available). If `we
 `npm i randomf`
 
 ```js
-import random from 'randomf'
+import randomf from 'randomf'
 
 // The cardinality of the field
 const F = 2n ** 256n
