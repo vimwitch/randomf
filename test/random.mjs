@@ -23,7 +23,7 @@ export default (test, random) => {
     t.true(avg > 0.45 && avg < 0.55, 'bad avg')
   })
 
-  test('should check that all bits are equally like to be 1 or 0', t => {
+  test('should check that all bits are equally likely to be 1 or 0', t => {
     for (let z = 1; z < 512; z++) {
       const F = 2n ** BigInt(z)
       const bits = Array(z).fill(0)
