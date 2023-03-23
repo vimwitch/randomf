@@ -59,7 +59,7 @@ export default (test, random) => {
   })
 
   test('should generate number in small field', t => {
-    const v = random(13)
+    const v = random(13n)
     t.true(typeof v === 'bigint')
   })
 }
