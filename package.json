@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "Random numbers in a finite field",
   "main": "index.js",
+  "types": "index.d.ts",
+  "homepage": "https://github.com/vimwitch/randomf#readme",
   "files": [
     "index.js",
     "index.d.ts"
