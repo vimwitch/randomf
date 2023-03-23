@@ -39,7 +39,7 @@ function random(F, allowInsecure = true) {
       return fromLE(faux, 32) % F
     }
   } else {
-    const crypto = require('node:crypto')
+    const crypto = require('crypto')
     return BigInt(`0x${crypto.randomBytes(64).toString('hex')}`) % F
   }
 }

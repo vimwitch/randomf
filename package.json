@@ -16,6 +16,9 @@
     "zk",
     "hash"
   ],
+  "browser": {
+    "crypto": false
+  },
   "scripts": {
     "test": "ava --timeout=60s test/*.test.mjs"
   },
