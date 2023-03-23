@@ -1,4 +1,4 @@
-# randomf
+# randomf [![CircleCI](https://dl.circleci.com/status-badge/img/gh/vimwitch/randomf/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/vimwitch/randomf/tree/main)
 
 Generate strong random numbers in a finite field.
 
